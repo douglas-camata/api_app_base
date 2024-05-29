@@ -18,5 +18,5 @@ app.register_blueprint(notificacoes_bp, url_prefix='/notificacoes')
 
 #inicializando o servidor flask
 if __name__ == '__main__' :
-    app.run( )
-    #app.run( port=5000, host='192.168.0.237', debug=True )
+    #app.run( )
+    app.run( port=5000, host='192.168.0.237', debug=True )
